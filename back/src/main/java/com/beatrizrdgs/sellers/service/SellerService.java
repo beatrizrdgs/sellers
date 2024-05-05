@@ -9,4 +9,10 @@ public interface SellerService {
 
     public List<Seller> findAllSellers();
 
+    public Seller findById(int id);
+
+    public Seller deleteById(int id);
+
+    public Seller generateRandomSeller();
+
 }
